@@ -1,16 +1,19 @@
-import React from 'react'
+import React from "react";
 import Navbar from "./components/Navbar";
-import Hero from './components/Hero'
+import Hero from "./components/Hero";
 import About from "./components/About";
 import Support from "./components/Support";
+import Platform from "./components/Platform";
 
-function App() {
+function App()
+{
   return (
     <div>
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Support/>
+      <Navbar />
+      <Hero />
+      <About />
+      <Support />
+      <Platform />
     </div>
   );
 }
